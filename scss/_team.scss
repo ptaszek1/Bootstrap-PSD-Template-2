@@ -1,0 +1,33 @@
+.team {
+  .container-fluid {
+    background-color: #111111;
+    color: #fff;
+    .team-header {
+      h1 {
+        font-size: 60px;
+      }
+      p {
+        color: #777777;
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+.team-cols {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.team-circle {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 7px;
+  border-color: #ffffff;
+  background-color: #111111;
+  width: 220px;
+  height: 221px;
+  margin-bottom: 30px;
+}

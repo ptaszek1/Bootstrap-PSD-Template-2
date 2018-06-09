@@ -22,3 +22,32 @@
     }
   }
 }
+.icons {
+  width: 85px;
+  height: 71px;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 20px;
+  background-color: #222222;
+  i {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+  }
+}
+.text {
+  h3 {
+    color: #222222;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  p {
+    color: #777777;
+    font-weight: 400;
+  }
+}
+.about {
+  margin: 50px 0 50px 0;
+}
