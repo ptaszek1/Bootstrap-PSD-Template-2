@@ -1,0 +1,30 @@
+.nav-logo {
+  background-image: url("../img/image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 800px;
+  color: #fff;
+  .escape-logo {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+    font-size: 25px;
+    i {
+      padding: 10px;
+    }
+  }
+  .excape-menu {
+    ul {
+      padding: 20px;
+      font-size: 18px;
+      display: flex;
+      flex-wrap: nowrap;
+      list-style: none;
+      text-decoration: none;
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
