@@ -5,6 +5,9 @@
 }
 .images-work {
   padding: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
   img {
     padding: 0 20px 0 20px;
   }
@@ -15,6 +18,7 @@
     .row {
       margin: 0;
       img {
+        padding: 0 20px 0 20px;
         margin-bottom: 20px;
       }
     }

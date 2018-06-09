@@ -1,6 +1,11 @@
 .clients {
   .container-fluid {
     background-color: #fafafa;
+    .clients-all {
+      display: flex;
+      justify-content: center;
+      margin: 0 0 50px 0;
+    }
   }
 }
 .circle-client {
@@ -11,6 +16,8 @@
   background-color: #111111;
   width: 221px;
   height: 221px;
+  display: flex;
+  justify-content: center;
 }
 .clients-header {
   padding: 70px;

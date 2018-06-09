@@ -23,18 +23,18 @@
   }
 }
 .icons {
-  width: 85px;
-  height: 71px;
+  min-width: 72px;
+  height: 72px;
   border-radius: 50%;
   color: #fff;
   margin-right: 20px;
   background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   i {
     font-size: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25%;
   }
 }
 .text {

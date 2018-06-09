@@ -23,7 +23,7 @@
 .team-cols {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap !important;
 }
 .team-circle {
   border-radius: 50%;
@@ -48,6 +48,10 @@
   margin: 50px 50px 80px 50px;
   font-size: 20px;
   color: #ebebeb;
+}
+.info-team {
+  width: 250px;
+  margin-top: 50px;
 }
 
 
