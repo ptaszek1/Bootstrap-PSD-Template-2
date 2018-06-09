@@ -1,10 +1,14 @@
 .nav-logo {
-  background-image: url("../img/image.png");
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/image.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 800px;
   color: #fff;
+  opacity: 0.8;
+  .container {
+    height: 800px;
+  }
   .escape-logo {
     display: flex;
     flex-wrap: nowrap;
@@ -26,5 +30,16 @@
         color: #fff;
       }
     }
+  }
+}
+.nav-item a{
+  color: #fff !important;
+}
+
+
+
+@media screen and (max-width: 766px) {
+  .excape-menu {
+    margin-top: 20px;
   }
 }
