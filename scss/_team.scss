@@ -31,3 +31,14 @@
   height: 221px;
   margin-bottom: 30px;
 }
+.socials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  i {
+    padding: 0 10px 0 10px;
+  }
+}
+.end-textteam {
+  margin: 50px 50px 80px 50px;
+}
