@@ -9,3 +9,14 @@
     padding: 0 20px 0 20px;
   }
 }
+
+@media screen and (max-width: 766px) {
+  .work-with {
+    .row {
+      margin: 0;
+      img {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

@@ -41,10 +41,30 @@
   flex-wrap: nowrap;
   i {
     padding: 0 10px 0 10px;
+    cursor: pointer;
   }
 }
 .end-textteam {
   margin: 50px 50px 80px 50px;
   font-size: 20px;
   color: #ebebeb;
+}
+
+
+@media screen and (max-width: 766px) {
+  .team {
+    .container-fluid {
+      .team-header {
+        h1 {
+          font-size: 40px;
+          margin: 20px 0 20px 0;
+        }
+      }
+    }
+  }
+  .socials {
+    i {
+      margin-bottom: 40px;
+    }
+  }
 }

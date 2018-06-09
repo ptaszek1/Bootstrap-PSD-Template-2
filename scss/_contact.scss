@@ -19,9 +19,9 @@
       border-width: 1px;
       border-color: #cccccc;
       background-color: #ffffff;
-      width: 456px;
+      max-width: 456px;
       height: 50px;
-      margin: 20px;
+      margin: 0 20px 20px 20px;
       padding: 15px;
     }
     textarea {
@@ -30,9 +30,8 @@
       border-width: 1px;
       border-color: #cccccc;
       background-color: #ffffff;
-      width: 456px;
+      max-width: 456px;
       height: 210px;
-      margin: 20px;
       padding: 15px;
     }
   }
@@ -42,4 +41,21 @@
 }
 i {
   padding-right: 15px;
+}
+
+@media screen and (max-width: 766px) {
+  .contact-inputs {
+    margin-top: 0;
+    text-align: center;
+  }
+  .contact {
+    text-align: center;
+    .contact-all {
+      margin-top: 0;
+      margin-bottom: 0;
+      p {
+        margin-top: 10px;
+      }
+    }
+  }
 }
