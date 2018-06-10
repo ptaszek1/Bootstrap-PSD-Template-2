@@ -1,4 +1,4 @@
-"# Bootstrap-PSD-Template-2" 
+# Bootstrap PSD Template 2 - Escape
 
 * Responsive website template, created with psd file.
 
